@@ -1,0 +1,93 @@
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initBookExDatabase.resources
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initBookExDatabase.resources
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\DAL\obj\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initDatabase.resources
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initDatabase.resources
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.Migrations.dd.resources
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initDatabase.resources
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.Migrations.dd.resources
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\DAL\obj\Debug\DAL.Migrations.alldbinit.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initDatabase.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.dd.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.alldbinit.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.initfarhan.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.authorvalidation.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.ReceiptAmmountadded.resources
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\DAL\obj\Debug\DAL.Migrations.ReceiptAmmountaddedmremove.resources

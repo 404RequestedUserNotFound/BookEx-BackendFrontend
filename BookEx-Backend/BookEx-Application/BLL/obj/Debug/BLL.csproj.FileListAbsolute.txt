@@ -1,0 +1,84 @@
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Drafts .NET\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\BLL.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.dll
+C:\Users\ahmed\Downloads\Programs\.NET-PROJECT\BookEx-Application\BLL\obj\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\BLL.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\Programs\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Backup Test\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Backup Test\All\BookExApp\BookEx-Application\BLL\obj\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\BLL.pdb
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\DAL.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\DAL.pdb
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\DAL.dll.config
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\obj\Debug\BLL.dll
+C:\Users\ahmed\Downloads\#Git Bash\BookEx\BookEx-Backend\BookEx-Application\BLL\obj\Debug\BLL.pdb
