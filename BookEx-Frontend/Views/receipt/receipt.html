@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+    
+    <title>Payment Receipt</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="receiptAddCtrl" class="container mt-3">
+        
+
+        <form ng-submit="createReceipt()" novalidate>
+             <br>
+
+            <h2 style="color:rgb(77, 177, 77)" >Payment Receipt</h2>
+
+
+            <div class="mb-3 mt-3">
+                <label for="ReceiptId" class="form-label">Receipt Id</label>
+                <input type="text" ng-model="ReceiptId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="ReceiptNumber" class="form-label">Receipt Number</label>
+                <input type="text" ng-model="ReceiptNumber" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="ReceiptDescription" class="form-label">Receipt Description</label>
+                <input type="text" ng-model="ReceiptDescription" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="CustomerId" class="form-label">Customer Id</label>
+                <input type="text" ng-model="CustomerId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="Amount" class="form-label">Amount of Money</label>
+                <input type="text" ng-model="Amount" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Receipt</button>
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/receipt/receipt.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Borrow Delete</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="borrowAllCtrl" class="container mt-3">
+        <h3>Publisher Delete</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>User ID</th>
+                    <th>Book ID Name</th>
+                    <th>Borrow Date</th>
+                    <th>Due Date</th>
+                    <th>Return Date</th>
+                    <th>Status</th>
+                    <th>Fine</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="borrow in borrows">
+                    <td>{{ borrow.Id }}</td>
+                    <td>{{ borrow.UserId }}</td>
+                    <td>{{ borrow.BookId }}</td>
+                    <td>{{ borrow.BorrowDate }}</td>
+                    <td>{{ borrow.DueDate }}</td>
+                    <td>{{ borrow.ReturnDate }}</td>
+                    <td>{{ borrow.Status }}</td>
+                    <td>{{ borrow.Fine }}</td>
+                    <td>
+                        <button ng-controller="borrowDeleteCtrl" class="btn btn-danger" ng-click="deleteBorrow(borrow.Id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/borrow/borrowDelete.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV5.css">
+
+    <title>Employee Delete</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="employeeAllCtrl" class="container mt-3">
+        <form>
+            <h2 style="color:rgb(77, 177, 77)" >Employee List</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                        <th>Phone</th>
+                        <th>Present Address</th>
+                        <th>Permanent Address</th>
+                        <th>NID</th>
+                        <th>Education</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Confirm Password</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees">
+                        <td>{{ employee.EmployeeId }}</td>
+                        <td>{{ employee.FirstName }}</td>
+                        <td>{{ employee.LastName }}</td>
+                        <td>{{ employee.Username }}</td>
+                        <td>{{ employee.Phone }}</td>
+                        <td>{{ employee.PresentAddress }}</td>
+                        <td>{{ employee.PermanentAddress }}</td>
+                        <td>{{ employee.NID }}</td>
+                        <td>{{ aemployeedmin.Education }}</td>
+                        <td>{{ employee.Email }}</td>
+                        <td>{{ employee.Password }}</td>
+                        <td>{{ employee.ConfirmPassword }}</td>
+                        <td>
+                            <button ng-controller="employeeDeleteCtrl" class="btn btn-danger" ng-click="deleteEmployee(employee.EmployeeId)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="/Views/admin/adminDashboard.html" class="btn btn-warning">Dashboard</a>
+    
+        </form>>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/employee/employeeDelete.js"></script>
+</body>
+</html>

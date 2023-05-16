@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV5.css">
+
+    <title>Admin Delete</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="adminAllCtrl" class="container mt-3">
+    <form>
+    <h2 style="color:rgb(77, 177, 77)" >Admin List</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>Phone</th>
+                    <th>Present Address</th>
+                    <th>Permanent Address</th>
+                    <th>NID</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Confirm Password</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="admin in admins">
+                    <td>{{ admin.AdminId }}</td>
+                    <td>{{ admin.FirstName }}</td>
+                    <td>{{ admin.LastName }}</td>
+                    <td>{{ admin.Username }}</td>
+                    <td>{{ admin.Phone }}</td>
+                    <td>{{ admin.PresentAddress }}</td>
+                    <td>{{ admin.PermanentAddress }}</td>
+                    <td>{{ admin.NID }}</td>
+                    <td>{{ admin.Email }}</td>
+                    <td>{{ admin.Password }}</td>
+                    <td>{{ admin.ConfirmPassword }}</td>
+                    <td>
+                        <button ng-controller="adminDeleteCtrl" class="btn btn-danger" ng-click="deleteAdmin(admin.AdminId)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <a href="/Views/admin/adminDashboard.html" class="btn btn-warning">Dashboard</a>
+    </form>>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/admin/adminDelete.js"></script>
+</body>
+</html>

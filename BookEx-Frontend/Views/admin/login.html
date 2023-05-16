@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV2.css">
+  </head>
+  <body>
+    <form id="login-form">
+      <h3 style="color:rgb(190, 47, 47); font-size: 45px; font-family: Consolas;">BookEx</h3> 
+
+      <h3 style="color:rgb(255, 255, 255); font-size: 30px;">Admin Login</h3>
+      <br>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <br>
+      <!-- <input type="submit" input class="btn btn-primary" value="Login"> -->
+      <a href="/Views/admin/adminDashboard.html" class="btn btn-primary">Login</a>
+
+      <br>
+      <br>
+      <a href="/Views/admin/adminRegistration.html" class="btn btn-warning">Create Account?</a>
+
+      <br>
+      <br>
+      <a href="/Views/customer/login.html" class="btn btn-light btn-sm">Customer Login</a>
+      <a href="/Views/publisher/login.html" class="btn btn-light btn-sm">Publisher Login</a>
+      <a href="/Views/employee/login.html" class="btn btn-light btn-sm">Employee Login</a>
+      <a href="/Views/author/Login.html" class="btn btn-light btn-sm">Author Login</a>
+
+
+
+    </form>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/admin/login.js"></script>
+  </body>
+</html>

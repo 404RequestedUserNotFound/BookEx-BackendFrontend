@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>OrderItem Search</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="orderitemSearchCtrl" class="container mt-3">
+        <form ng-submit="searchOrderItem()">
+            <h2 style="color:rgb(77, 177, 77)" >Search OrderItem</h2>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="orderitemId" ng-model="orderitemId">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+
+            <div ng-if="searchResult">
+                <br>
+                
+                <h4>Search Result:</h4>
+                <p>Order Item Id: {{ searchResult.OrderItemId }}</p>
+                <p>Quantity: {{ searchResult.Quantity }}</p>
+                <p>Order Id: {{ searchResult.OrderId }}</p>
+            </div>
+        </form>
+
+
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/orderitem/orderitemSearch.js"></script>
+</body>
+</html>

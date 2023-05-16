@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+   
+    
+ <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css"> 
+    
+    <title>Publisher Registration</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="publisherAddCtrl" class="container mt-3">
+        
+
+        <form ng-submit="createPublisher()" novalidate>
+
+            <h2 style="color:rgb(77, 177, 77)" >Publisher Registration</h2>
+
+
+            <div class="mb-3 mt-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" ng-model="firstName" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" ng-model="lastName" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" ng-model="username" class="form-control">
+            </div>
+
+
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" ng-model="email" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" ng-model="password" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="website" class="form-label">Website</label>
+                <input type="url" ng-model="website" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        <br>
+        <br>
+        <a href="/Views/publisher/login.html" class="btn btn-warning">Back to login</a>
+
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/publisher/publisherRegistration.js"></script>
+</body>
+</html>

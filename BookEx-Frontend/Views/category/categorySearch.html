@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>Category Search</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="categorySearchCtrl" class="container mt-3">
+        <form>
+            <h2 style="color:rgb(77, 177, 77)" >Search Category</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="categoryId" ng-model="categoryId">
+            </div>
+            <button class="btn btn-primary" ng-click="searchCategory()">Search</button>
+            <div ng-if="searchResult">
+                <br>
+    
+                <h4>Search Result:</h4>
+                <p><strong>Category ID:</strong> {{ searchResult.CategoryId }}</p>
+                <p><strong>Category Name:</strong> {{ searchResult.CategoryName }}</p>
+            </div>
+                  <br>
+                <br>
+                <a href="/Views/admin/adminDashboard.html" class="btn btn-warning">Dashboard</a>
+    
+        </form>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/category/categorySearch.js"></script>
+</body>
+</html>

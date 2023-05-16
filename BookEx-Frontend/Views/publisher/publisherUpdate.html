@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+   <!--  <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css"> -->
+   
+    
+    <title>Publisher Update</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="publisherUpdateCtrl" class="container mt-3">
+        <h3 style="color:rgb(77, 177, 77)">Publisher Update</h3>
+
+        <form ng-submit="updatePublisher()" novalidate>
+
+            <div class="mb-3 mt-3">
+                <label for="publisherId" class="form-label">Publisher ID</label>
+                <input type="text" ng-model="publisherId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" ng-model="firstName" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" ng-model="lastName" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" ng-model="username" class="form-control">
+            </div>
+
+
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" ng-model="email" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" ng-model="password" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="website" class="form-label"> Website</label>
+                <input type="url" ng-model="website" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a href="/Views/publisher/publisherDashboard.html" class="btn btn-warning">Dashboard</a>
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/publisher/publisherUpdate.js"></script>
+</body>
+</html>

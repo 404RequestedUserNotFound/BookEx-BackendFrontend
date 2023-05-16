@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>Order Search</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="orderSearchCtrl" class="container mt-3">
+        <form>
+            <h2 style="color:rgb(77, 177, 77)" >Search Order</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="orderId" ng-model="searchId" placeholder="Search With Order Id">
+            </div>
+            <button class="btn btn-primary" ng-click="searchOrder()">Search</button>
+    
+            <div class="mt-3" ng-if="order">
+                <h4>Order Details:</h4>
+                <p><strong>ID:</strong> {{ order.OrderId }}</p>
+                <p><strong>OrderDate:</strong> {{  order.OrderDate }}</p>
+                <p><strong>TotalPrice:</strong> {{  order.TotalPrice }}</p>
+                <p><strong>CustomerId:</strong> {{  order.CustomerId }}</p>
+            </div>
+            <br>
+            <br>
+    
+        </form>
+    </div>
+    <br>
+    <br>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/order/orderSearch.js"></script>
+</body>
+</html>

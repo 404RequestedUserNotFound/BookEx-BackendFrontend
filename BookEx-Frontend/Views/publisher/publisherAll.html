@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+    <title >Publisher List</title>
+</head>
+<body ng-app="my-app">
+    
+    <div ng-controller="publisherAllCtrl" class="container mt-3">
+        <form>  
+        <h3 style="color:rgb(77, 177, 77)">Publisher List</h3>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="publish in publishes">
+                    <td>{{ publish.Id }}</td>
+                    <td>{{ publish.FirstName }}</td>
+                    <td>{{ publish.LastName }}</td>
+                    <td>{{ publish.Username }}</td>
+                    <td>{{ publish.Email }}</td>
+                    <td>{{ publish.Password }}</td>
+                    <td>{{ publish.Website }}</td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="/Views/publisher/publisherDashboard.html" class="btn btn-warning">Dashboard</a>
+    </form>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/publisher/publisherAll.js"></script>
+</body>
+</html>

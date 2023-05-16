@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>Category Update</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="categoryUpdateCtrl" class="container mt-3">
+
+        <form ng-submit="updateCategory()" novalidate>
+            <h2 style="color:rgb(77, 177, 77)" >Update Information</h2>
+
+            <div class="mb-3 mt-3">
+                <label for="categoryId" class="form-label">Category ID</label>
+                <input type="text" ng-model="categoryId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="categoryName" class="form-label">Category Name</label>
+                <input type="text" ng-model="categoryName" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <br>
+            <br>
+            <a href="/Views/admin/adminUpdatePage.html" class="btn btn-warning">Back</a>
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/category/categoryUpdate.js"></script>
+</body>
+</html>

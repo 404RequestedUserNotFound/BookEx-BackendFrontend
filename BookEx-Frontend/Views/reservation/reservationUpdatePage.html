@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+      <title>Reservation Update</title>
+  </head>
+  <body ng-app="my-app">
+      <div ng-controller="reservationUpdatePageCtrl" class="container mt-3">
+          <h3>Reservation List</h3>
+          <table class="table table-bordered">
+              <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Book ID</th>
+                    <th>User ID</th>
+                    <th>Reservation Date</th>
+                    <th>Status</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr ng-repeat="reserve in reserves">
+                    <td>{{ reserve.Id }}</td>
+                    <td>{{ reserve.BookId }}</td>
+                    <td>{{ reserve.UserId }}</td>
+                    <td>{{ reserve.ReservationDate }}</td>
+                    <td>{{ reserve.Status }}</td>
+                      <td>
+                        <a href="/Views/reservation/reservationUpdate.html" class="btn btn-primary">Edit</a>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <script src="/Content/angular-1.8.2/angular.min.js"></script>
+      <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+      <script src="/Controller/reservation/reservationUpdatePage.js"></script>
+  </body>
+  </html>
+  

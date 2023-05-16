@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+    
+    <title>Author Update</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="authorUpdateCtrl" class="container mt-3">
+
+        <form ng-submit="updateAuthor()" novalidate>
+            <h2 style="color:rgb(77, 177, 77)" >Update Information</h2>
+
+            <div class="mb-3 mt-3">
+                <label for="AuthorName" class="form-label">Author Name</label>
+                <input type="text" ng-model="AuthorName" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="AuthorId" class="form-label">Author Id</label>
+                <input type="text" ng-model="AuthorId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="AuthorBio" class="form-label">Author Bio</label>
+                <input type="text" ng-model="AuthorBio" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="PresentAddress" class="form-label">Present Address</label>
+                <input type="text" ng-model="PresentAddress" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="AuthorEmail" class="form-label">Author Email</label>
+                <input type="email" ng-model="AuthorEmail" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="Password" class="form-label">Password</label>
+                <input type="password" ng-model="Password" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="ConfirmPassword" class="form-label">Confirm Password</label>
+                <input type="password" ng-model="ConfirmPassword" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            <br>
+            <br>
+            <a href="/Views/author/authorUpdatePage.html" class="btn btn-warning">Back</a>
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/author/authorUpdate.js"></script>
+</body>
+</html>

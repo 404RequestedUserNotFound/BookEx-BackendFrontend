@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>Admin Search</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="adminSearchCtrl" class="container mt-3">
+        <form ng-submit="searchAdmin()">
+            <h2 style="color:rgb(77, 177, 77)" >Search Admin</h2>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="adminId" ng-model="adminId">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+
+            <div ng-if="searchResult">
+                <br>
+                
+                <h4>Search Result:</h4>
+                <p>ID: {{ searchResult.AdminId }}</p>
+                <p>First Name: {{ searchResult.FirstName }}</p>
+                <p>Last Name: {{ searchResult.LastName }}</p>
+                <p>Username: {{ searchResult.Username }}</p>
+                <p>Phone: {{ searchResult.Phone }}</p>
+                <p>Present Address: {{ searchResult.PresentAddress }}</p>
+                <p>Permanent Address: {{ searchResult.PermanentAddress }}</p>
+                <p>NID: {{ searchResult.NID }}</p>
+                <p>Email: {{ searchResult.Email }}</p>
+                <p>Password: {{ searchResult.Password }}</p>
+                <p>Confirm Password: {{ searchResult.ConfirmPassword }}</p>
+            </div>
+            <br>
+            <br>
+            <a href="/Views/admin/adminDashboard.html" class="btn btn-warning">Dashboard</a>
+
+        </form>
+
+
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/admin/adminSearch.js"></script>
+</body>
+</html>

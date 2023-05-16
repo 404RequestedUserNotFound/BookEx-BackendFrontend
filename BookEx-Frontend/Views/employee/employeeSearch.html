@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>Employee Search</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="employeeSearchCtrl" class="container mt-3">
+        <form>
+            <h2 style="color:rgb(77, 177, 77)" >Search Employee</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="employeeId" ng-model="searchId" placeholder="Search With Employee Id">
+            </div>
+            <button class="btn btn-primary" ng-click="searchEmployee()">Search</button>
+    
+            <div class="mt-3" ng-if="employee">
+                <h4>Employee Details:</h4>
+                <p><strong>ID:</strong> {{ employee.EmployeeId }}</p>
+                <p><strong>First Name:</strong> {{ employee.FirstName }}</p>
+                <p><strong>Last Name:</strong> {{ employee.LastName }}</p>
+                <p><strong>Username:</strong> {{ employee.Username }}</p>
+                <p><strong>Phone:</strong> {{ employee.Phone }}</p>
+                <p><strong>Present Address:</strong> {{ employee.PresentAddress }}</p>
+                <p><strong>Permanent Address:</strong> {{ employee.PermanentAddress }}</p>
+                <p><strong>NID:</strong> {{ employee.NID }}</p>
+                <p><strong>Education:</strong> {{ employee.Education }}</p>
+                <p><strong>Email:</strong> {{ employee.Email }}</p>
+                <p><strong>Password:</strong> {{ employee.Password }}</p>
+                <p><strong>Confirm Password:</strong> {{ employee.ConfirmPassword }}</p>
+            </div>
+            <br>
+            <br>
+            <a href="/Views/admin/adminDashboard.html" class="btn btn-warning">Dashboard</a>
+    
+        </form>
+    </div>
+    <br>
+    <br>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/employee/employeeSearch.js"></script>
+</body>
+</html>

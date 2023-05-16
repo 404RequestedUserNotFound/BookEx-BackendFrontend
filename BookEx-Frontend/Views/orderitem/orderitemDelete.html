@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV5.css">
+
+    <title>OrderItem Delete</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="orderitemAllCtrl" class="container mt-3">
+    <form>
+    <h2 style="color:rgb(77, 177, 77)" >OrderItem List</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>OrderItemId</th>
+                    <th>Quantity</th>
+                    <th>OrderId</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="orderitem in orderitems">
+                    <td>{{ orderitem.OrderItemId }}</td>
+                    <td>{{ orderitem.Quantity }}</td>
+                    <td>{{ orderitem.OrderId }}</td>
+                    <td>
+                        <button ng-controller="orderitemDeleteCtrl" class="btn btn-danger" ng-click="deleteOrderItem(orderitem.OrderItemId)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/orderitem/orderitemDelete.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+    
+    <title>Order Here</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="orderAddCtrl" class="container mt-3">
+        <h3>Order Here</h3>
+
+        <form ng-submit="createOrder()" novalidate>
+            <h2 style="color:rgb(77, 177, 77)" >Add Order</h2>
+
+            <div class="mb-3 mt-3">
+                <label for="orderId" class="form-label">OrderId</label>
+                <input type="text" ng-model="orderId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="orderDate" class="form-label">OrderDate</label>
+                <input type="text" ng-model="orderDate" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="totalPrice" class="form-label">TotalPrice</label>
+                <input type="text" ng-model="totalPrice" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="customerid" class="form-label">Customer Id</label>
+                <input type="text" ng-model="customrerId" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Confirm</button>
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/order/order.js"></script>
+</body>
+</html>

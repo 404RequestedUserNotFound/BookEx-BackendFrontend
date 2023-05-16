@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-5.3.0/css/DashboardV4.css">
+
+    <title>Book Search</title>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="bookSearchCtrl" class="container mt-3">
+        <form>
+            <h2 style="color:rgb(77, 177, 77)" >Search book</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="bookId" ng-model="bookId">
+            </div>
+            <button class="btn btn-primary" ng-click="searchBook()">Search</button>
+            <div ng-if="searchResult">
+                <br>
+    
+                <h4>Search Result:</h4>
+                <p><strong>Book ID:</strong> {{ searchResult.BookId }}</p>
+                <p><strong>Book Title:</strong> {{ searchResult.Title }}</p>
+            </div>
+                  <br>
+                <br>
+              
+    
+        </form>
+    </div>
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/book/bookSearch.js"></script>
+</body>
+</html>

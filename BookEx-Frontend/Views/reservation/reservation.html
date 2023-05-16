@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+    <link href="/Content/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <title>Reservation Registration</title>
+</head>
+
+<body ng-app="my-app">
+    <div ng-controller="reservationAddCtrl" class="container mt-3">
+        <h3>Borrow Registration</h3>
+
+        <form ng-submit="createReservation()" novalidate>
+
+
+            <div class="mb-3 mt-3">
+                <label for="bookId" class="form-label">Book ID</label>
+                <input type="number" ng-model="bookId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="userId" class="form-label">User ID</label>
+                <input type="number" ng-model="userId" class="form-control">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="reservationDate" class="form-label">Reservation Date</label>
+                <input type="datetime-local" ng-model="reservationDate" class="form-control">
+            </div>
+
+
+            <div class="mb-3 mt-3">
+                <label for="status" class="form-label">Status</label>
+                <input type="text" ng-model="status" class="form-control">
+            </div>
+
+         
+            <button type="submit" class="btn btn-primary">Reserve</button>
+        </form>
+    </div>
+
+    <script src="/Content/angular-1.8.2/angular.min.js"></script>
+    <script src="/Content/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/Controller/reservation/reservation.js"></script>
+</body>
+</html>
